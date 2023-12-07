@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>API Documentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .api-container {
+      margin-top: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+    }
+    .api-item {
+      margin-bottom: 20px;
+    }
+    h1, h2 {
+      color: #0066cc;
+    }
+    button {
+      margin-right: 10px;
+      padding: 10px 20px;
+      background-color: #0066cc;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      fetch('/getAPIMode')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('api-container');
+        for (let key in data.ActiveAPI) {
+          const item = document.createElement('div');
+          item.textContent = `${key}: ${data.ActiveAPI[key]}`;
+          item.classList.add('api-item');
+          container.appendChild(item);
+        }
+      });
+    };
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to API Documentation!</h1>
+    <h2>Services Overview</h2>
+    <h3>Service Location: /opt/ReturnsProxy</h3>
+
+    <div id="api-container" class="api-container">
+      <h4>Bastian.js</h4>
+      <p>Express.js HTTP API running on port 8080.</p>
+
+      <h4>Box.js</h4>
+      <p>TCP API running on port 8083. Also includes a Heartbeat service on port 8038.</p>
+
+      <h4>SickClarify.js</h4>
+      <p>TCP API running on port 8084. Also includes a Heartbeat service on port 8048.</p>
+
+      <h4>Keyence.js</h4>
+      <p>TCP API running on port 8085.</p>
+    </div>
+
+    <a href="/updateAPI"><button>Update API</button></a>
+    <a href="/mqttLog"><button>View MQTT Log</button></a>
+    <a href="/errorLog"><button>View Error Log</button></a>
+    <a href="http://10.63.192.38/"><button>Secondary proxy</button></a>
+  </div>
+</body>
+</html>
+
