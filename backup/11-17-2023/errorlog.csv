@@ -1,0 +1,31 @@
+
+2023-11-10 09:29:33, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1
+2023-11-10 09:29:39, ReturnsProxy.js, Error in Service packappStation1:, Error: Tag undefined has not been added. Please add it before writing.
+2023-11-10 09:29:39, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1
+2023-11-10 09:35:41, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1s not been added. Please add it before writing.
+2023-11-10 09:36:58, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1s not been added. Please add it before writing.
+2023-11-10 09:37:18, ReturnsProxy.js, Error in Service packappStation1:, Error: Tag undefined has not been added. Please add it before writing.
+2023-11-10 09:38:08, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1s not been added. Please add it before writing.
+2023-11-10 09:39:12, ReturnsProxy.js, Error in Service packappStation1:, Error: Tag undefined has not been added. Please add it before writing.
+2023-11-10 09:39:12, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1
+2023-11-10 09:39:40, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1s not been added. Please add it before writing.
+2023-11-10 09:41:26, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1s not been added. Please add it before writing.
+2023-11-10 09:42:02, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1s not been added. Please add it before writing.
+2023-11-10 09:43:52, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1s not been added. Please add it before writing.
+2023-11-10 09:45:03, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1s not been added. Please add it before writing.
+2023-11-10 09:47:24, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1s not been added. Please add it before writing.
+2023-11-10 09:47:31, ReturnsProxy.js, Error in Service packappStation1:, Error: Tag undefined has not been added. Please add it before writing.
+2023-11-10 09:47:31, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1
+2023-11-10 09:47:37, ReturnsProxy.js, Error in Service packappStation1:, Error: Tag undefined has not been added. Please add it before writing.
+2023-11-10 09:47:37, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1
+2023-11-10 09:48:49, ReturnsProxy.js, Error in Service packappStation1:, Error: Tag undefined has not been added. Please add it before writing.
+2023-11-10 09:48:49, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1
+2023-11-10 09:50:53, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1s not been added. Please add it before writing.
+2023-11-10 09:51:39, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1s not been added. Please add it before writing.
+2023-11-10 09:53:48, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1s not been added. Please add it before writing.
+2023-11-10 09:55:51, ReturnsProxy.js, Service packappStation1 worker stopped with exit code 1, 1ct] has not been added. Please add it before writing.
+2023-11-14 14:35:07, ReturnsProxy.js, Service packappStation2 worker stopped with exit code 1, 1
+2023-11-14 14:45:35, ReturnsProxy.js, Service packappStation2 worker stopped with exit code 1, 1
+2023-11-14 14:51:12, undefined, undefined, TypeError: PLCConfig.forEach is not a function
+2023-11-16 13:29:54, undefined, undefined, Error: read ECONNRESET
+2023-11-16 13:53:47, undefined, undefined, Error: read ECONNRESET

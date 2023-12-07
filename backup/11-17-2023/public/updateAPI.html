@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Update API</h1>
+        <div id="api-container"></div> <!-- Container to display APIs -->
+
+        <!-- Edit API Form -->
+        <form id="edit-api-form" style="display:none;" method="POST">
+            <label for="edit-api-name">API Name:</label>
+            <input type="text" id="edit-api-name" name="apiName" readonly>
+            
+            <label for="edit-api-value">API Value:</label>
+            <input type="text" id="edit-api-value" name="apiValue">
+
+            <input type="submit" value="Edit API">
+        </form>
+
+        <!-- Update API Form -->
+        <form id="update-api-form">
+            <label for="service">Service:</label>
+            <select id="service" name="service"></select>
+
+            <label for="option">Option:</label>
+            <select id="option" name="option"></select>
+
+            <input type="submit" value="Update">
+        </form>
+    </div>
+
+    <script src="Apimode.js"></script>
+</body>
+</html>

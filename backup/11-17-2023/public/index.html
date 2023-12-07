@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="Apimode.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to API Documentation!</h1>
+        
+        <h2>System Overview</h2>
+        <p>Our infrastructure leverages <code>systemd</code> for efficient service management, ensuring streamlined operations and improved service reliability.</p>
+        
+        <h3>Centralized Service Management with <code>systemd</code>:</h3>
+        <p>All our services are orchestrated under the <code>returnsproxy.service</code>. This central service provides automated monitoring, error recovery, and unified logging.</p>
+        
+        <h3>API Services:</h3>
+        <p>Each of our services serves a distinct purpose. Details of each service, including their port numbers, can be found below.</p>
+
+        <div id="api-container" class="api-container">
+            <!-- API details will be populated here by Apimode.js -->
+        </div>
+
+        <h3>Access & Utilities:</h3>
+        <p>From the dashboard, users can update the API, view running services, access logs, and reach the secondary proxy for redundancy and failover support.</p>
+
+        <a href="/updateAPI"><button>Update API</button></a>
+        <a href="/Services"><button>Services</button></a>
+        <a href="/mqttLog"><button>View MQTT Log</button></a>
+        <a href="/errorLog"><button>View Error Log</button></a>
+        <a href="http://10.63.192.36/"><button>El Paso proxy Main</button></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "ActiveAPI": {
+    "WebAPI": "https://mnet.global.dish.com/",
+    "SickClarify": "https://mnet.global.dish.com/",
+    "AEC": "https://mnet.global.dish.com/",
+    "keyence": "https://mnet.global.dish.com/",
+    "PackoutStation1": "https://mnet-test.global.dish.com/Applications/DevicePakAPI/api/DBS/Station1",
+    "PackoutStation2": "https://mnet-test.global.dish.com/Applications/DevicePakAPI/api/DBS/Station2"
+  },
+  "URLAPI": {
+    "http": "http://mnet.dish.com/",
+    "https": "https://mnet.global.dish.com/",
+    "StantAalone": "http://10.63.192.30:8080/",
+    "test": "https://mnet-test.global.dish.com/",
+    "test2": "https://mnet-test.global.dish.com/Applications/DevicePakAPI/api/DBS/Station1",
+    "test3": "https://mnet-test.global.dish.com/Applications/DevicePakAPI/api/DBS/Station2"
+  }
+}
