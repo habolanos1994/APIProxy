@@ -1,0 +1,26 @@
+
+2023-11-17 09:17:56, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/js/papaparse.min.js,Requestor:::ffff:10.63.192.90
+2023-11-17 09:17:56, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/getErrorLog,Requestor:::ffff:10.63.192.90
+2023-11-17 09:18:05, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/images/sort_both.png,Requestor:::ffff:10.63.192.90
+2023-11-17 09:18:05, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/images/sort_asc.png,Requestor:::ffff:10.63.192.90
+2023-11-17 09:18:58, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/images/sort_both.png,Requestor:::ffff:10.63.192.90
+2023-11-17 09:18:58, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/images/sort_asc.png,Requestor:::ffff:10.63.192.90
+2023-11-17 09:42:23, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/updateAPI,Requestor:::ffff:10.63.39.60
+2023-11-17 10:01:00, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/api/updateAPI,Requestor:::ffff:10.63.39.60
+2023-11-17 10:08:36, errorHandler.js, nodejs express, middleware, Cannot read properties of undefined (reading 'trim')
+2023-11-17 10:08:52, errorHandler.js, nodejs express, middleware, Cannot read properties of undefined (reading 'trim')
+2023-11-17 10:38:53, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/js/bootstrap.bundle.min.js.map,Requestor:::ffff:10.63.39.60
+2023-11-17 10:38:53, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/css/bootstrap.min.css.map,Requestor:::ffff:10.63.39.60
+2023-11-17 10:38:53, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/images/sort_both.png,Requestor:::ffff:10.63.39.60
+2023-11-17 10:38:53, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/images/sort_asc.png,Requestor:::ffff:10.63.39.60
+2023-11-17 10:39:00, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/js/papaparse.min.js,Requestor:::ffff:10.63.39.60
+2023-11-17 10:39:20, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/js/papaparse.min.js,Requestor:::ffff:10.63.39.60
+2023-11-17 10:44:26, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/css/styles.css,Requestor:::ffff:10.63.192.90
+2023-11-17 10:44:34, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/js/papaparse.min.js,Requestor:::ffff:10.63.192.90
+2023-11-17 10:44:37, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/images/sort_both.png,Requestor:::ffff:10.63.192.90
+2023-11-17 10:44:37, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/images/sort_asc.png,Requestor:::ffff:10.63.192.90
+2023-11-17 11:00:18, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/css/styles.css,Requestor:::ffff:10.63.192.90
+2023-11-17 11:00:35, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/images/sort_both.png,Requestor:::ffff:10.63.192.90
+2023-11-17 11:00:35, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/images/sort_asc.png,Requestor:::ffff:10.63.192.90
+2023-11-17 11:04:25, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/images/sort_both.png,Requestor:::ffff:10.63.192.90
+2023-11-17 11:04:25, errorHandler.js, nodejs express, errorApiNotFound, errorApiNotFound:/lib/HTML/images/sort_asc.png,Requestor:::ffff:10.63.192.90

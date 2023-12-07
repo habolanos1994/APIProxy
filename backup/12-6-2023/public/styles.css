@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.api-container {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.api-item {
+    margin-bottom: 20px;
+}
+
+h1,
+h2 {
+    color: #0066cc;
+}
+
+button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select,
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+    background-color: #0066cc;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #0055a3;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+th {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,220 @@
+[
+  {
+    "ServiceName": "BoxTracker",
+    "TCPAPIPort": "8083",
+    "HeartbeatPort": "8038",
+    "workerScript": "Websocket.js",
+    "MQTTDDATATopic": "ELP/Returns/PROXY/AEC/DDATA",
+    "MQTTERRORTopic": "ELP/Returns/PROXY/AEC/Error",
+    "PLCConfig": {},
+    "ProxyMode": "https",
+    "APIRequest": "GetPLCIDForTrackNum",
+    "PROXYURL": {
+      "http": "http://mnet.dish.com/Programs_NET_2/RCVX/api/RCV/GetPLCIDForTrackNum",
+      "https": "https://mnet.global.dish.com/Programs_NET_2/RCVX/api/RCV/GetPLCIDForTrackNum",
+      "StantAalone": "http://10.63.192.30:8080/Programs_NET_2/RCVX/api/RCV/GetPLCIDForTrackNum",
+      "test": ""
+    },
+    "stringToArray": {
+      "enable": false,
+      "useSingleRequests": true,
+      "delimiter": ","
+    },
+    "MQTTHeartbeatTopic": "ELP/Returns/PROXY/HeartbeatAEC/DDATA"
+  },
+  {
+    "ServiceName": "Keyence",
+    "TCPAPIPort": "8085",
+    "HeartbeatPort": "8058",
+    "workerScript": "Websocket.js",
+    "MQTTDDATATopic": "ELP/Returns/PROXY/Keyence/DDATA",
+    "MQTTERRORTopic": "ELP/Returns/PROXY/Keyence/Error",
+    "PLCConfig": {},
+    "ProxyMode": "https",
+    "APIRequest": "PostSerialForReceiving",
+    "PROXYURL": {
+      "http": "http://mnet.dish.com/Programs_NET_2/RCVX/api/RCV/PostSerialForReceiving",
+      "https": "https://mnet.global.dish.com/Programs_NET_2/RCVX/api/RCV/PostSerialForReceiving",
+      "StantAalone": "http://10.63.192.30:8080/Programs_NET_2/RCVX/api/RCV/PostSerialForReceiving",
+      "test": ""
+    },
+    "stringToArray": {
+      "enable": false,
+      "useSingleRequests": true,
+      "delimiter": ","
+    },
+    "MQTTHeartbeatTopic": ""
+  },
+  {
+    "ServiceName": "packappStation1",
+    "TCPAPIPort": "8090",
+    "HeartbeatPort": "8009",
+    "workerScript": "websocketEthernetIp.js",
+    "MQTTDDATATopic": "SUW/warehouse/PROXY/packappStation1/DDATA",
+    "MQTTERRORTopic": "SUW/warehouse/PROXY/packappStation1/Error",
+    "PLCConfig": {
+      "IPAddress": "10.32.192.82",
+      "IpFilter": "10.32.192.86",
+      "Slot": 0,
+      "TagsProxy": [
+        {
+          "name": "LastManualScan",
+          "type": "STRING",
+          "scope": "TrafficControl"
+        }
+      ],
+      "Heartbeat": [
+        {
+          "name": "ManualScannerHeartbeat",
+          "type": "BOOL",
+          "scope": "TrafficControl"
+        }
+      ]
+    },
+    "ProxyMode": "test",
+    "APIRequest": "DevicePakAPIStation1",
+    "PROXYURL": {
+      "http": "",
+      "https": "https://mnet-dev.global.dish.com/Applications/DevicePakAPI/api/DBS/DevicePakStation1",
+      "StantAalone": "",
+      "test": "https://mnet-test.global.dish.com/Applications/DevicePakAPI/api/DBS/DevicePakStation1"
+    },
+    "stringToArray": {
+      "enable": false,
+      "useSingleRequests": true,
+      "delimiter": ","
+    },
+    "MQTTHeartbeatTopic": ""
+  },
+  {
+    "ServiceName": "packappStation2",
+    "TCPAPIPort": "8091",
+    "HeartbeatPort": "8019",
+    "workerScript": "websocketEthernetIp.js",
+    "MQTTDDATATopic": "SUW/warehouse/PROXY/packappStation2/DDATA",
+    "MQTTERRORTopic": "SUW/warehouse/PROXY/packappStation2/Error",
+    "PLCConfig": {
+      "IPAddress": "10.32.192.82",
+      "IpFilter": "10.32.192.86",
+      "Slot": 0,
+      "TagsProxy": [
+        {
+          "name": "LastManualScan",
+          "type": "STRING",
+          "scope": "TrafficControl"
+        }
+      ],
+      "Heartbeat": [
+        {
+          "name": "ManualScannerHeartbeat",
+          "type": "BOOL",
+          "scope": "TrafficControl"
+        }
+      ]
+    },
+    "ProxyMode": "https",
+    "APIRequest": "DevicePakAPIStation2",
+    "PROXYURL": {
+      "http": "",
+      "https": " https://mnet-test.global.dish.com/Applications/DevicePakAPI/api/DBS/DevicePakStation2",
+      "StantAalone": "",
+      "test": "https://mnet-test.global.dish.com/Applications/DevicePakAPI/api/DBS/DevicePakStation2"
+    },
+    "stringToArray": {
+      "enable": false,
+      "useSingleRequests": true,
+      "delimiter": ","
+    },
+    "MQTTHeartbeatTopic": ""
+  },
+  {
+    "ServiceName": "SickClarify",
+    "TCPAPIPort": "8084",
+    "HeartbeatPort": "8048",
+    "workerScript": "Websocket.js",
+    "MQTTDDATATopic": "ELP/Returns/PROXY/SickClarify/DDATA",
+    "MQTTERRORTopic": "ELP/Returns/PROXY/SickClarify/Error",
+    "PLCConfig": {},
+    "ProxyMode": "https",
+    "APIRequest": "PostSerialForReceiving",
+    "PROXYURL": {
+      "http": "http://mnet.dish.com/Programs_NET_2/RCVX/api/RCV/PostSerialForReceiving",
+      "https": "https://mnet.global.dish.com/Programs_NET_2/RCVX/api/RCV/PostSerialForReceiving",
+      "StantAalone": "http://10.63.192.30:8080/Programs_NET_2/RCVX/api/RCV/PostSerialForReceiving",
+      "test": ""
+    },
+    "stringToArray": {
+      "enable": false,
+      "useSingleRequests": true,
+      "delimiter": ","
+    },
+    "MQTTHeartbeatTopic": ""
+  },
+  {
+    "ServiceName": "Bastian",
+    "TCPAPIPort": "8080",
+    "HeartbeatPort": "",
+    "workerScript": "RestAPI.js",
+    "MQTTDDATATopic": "",
+    "MQTTERRORTopic": "",
+    "ProxyMode": {
+      "PostSerialForReceiving": "https",
+      "GetPLCIDForEquipment": "https",
+      "GetPLCTNUMForEquipment": "https",
+      "GetPLCIDForTrackNum": "https",
+      "GetDivertInfoForEquipment": "https",
+      "DevicePakAPIStation1": "test",
+      "DevicePakAPIStation2": "test"
+    },
+    "PROXYURL": {
+      "PostSerialForReceiving": {
+        "http": "http://mnet.dish.com/Programs_NET_2/RCVX/api/RCV/PostSerialForReceiving",
+        "https": "https://mnet.global.dish.com/Programs_NET_2/RCVX/api/RCV/PostSerialForReceiving",
+        "StantAalone": "http://10.63.192.30:8080/Programs_NET_2/RCVX/api/RCV/PostSerialForReceiving",
+        "test": ""
+      },
+      "GetPLCIDForEquipment": {
+        "http": "http://mnet.dish.com/Programs_NET_2/RCVX/api/RCV/GetPLCIDForEquipment",
+        "https": "https://mnet.global.dish.com/Programs_NET_2/RCVX/api/RCV/GetPLCIDForEquipment",
+        "StantAalone": "http://10.63.192.30:8080/Programs_NET_2/RCVX/api/RCV/GetPLCIDForEquipment",
+        "test": ""
+      },
+      "GetPLCTNUMForEquipment": {
+        "http": "http://mnet.dish.com/Programs_NET_2/RCVX/api/RCV/GetPLCIDForEquipment",
+        "https": "https://mnet.global.dish.com/Programs_NET_2/RCVX/api/RCV/GetPLCIDForEquipment",
+        "StantAalone": "http://10.63.192.30:8080/Programs_NET_2/RCVX/api/RCV/GetPLCIDForEquipment",
+        "test": ""
+      },
+      "GetPLCIDForTrackNum": {
+        "http": "http://mnet.dish.com/Programs_NET_2/RCVX/api/RCV/GetPLCIDForTrackNum",
+        "https": "https://mnet.global.dish.com/Programs_NET_2/RCVX/api/RCV/GetPLCIDForTrackNum",
+        "StantAalone": "http://10.63.192.30:8080/Programs_NET_2/RCVX/api/RCV/GetPLCIDForTrackNum",
+        "test": ""
+      },
+      "GetDivertInfoForEquipment": {
+        "http": "http://mnet.dish.com/Programs_NET_2/RCVX/api/RCV/GetDivertInfoForEquipment",
+        "https": "https://mnet.global.dish.com/Programs_NET_2/RCVX/api/RCV/GetDivertInfoForEquipment",
+        "StantAalone": "http://10.63.192.30:8080/Programs_NET_2/RCVX/api/RCV/GetDivertInfoForEquipment",
+        "test": ""
+      },
+      "DevicePakAPIStation1": {
+        "http": "https://mnet-test.global.dish.com/Applications/DevicePakAPI/api/DBS/Station1",
+        "https": "https://mnet-dev.global.dish.com/Applications/DevicePakAPI/api/DBS/DevicePakStation1",
+        "StantAalone": "https://mnet-test.global.dish.com/Applications/DevicePakAPI/api/DBS/Station1",
+        "test": "https://mnet-dev.global.dish.com/Applications/DevicePakAPI/api/DBS/DevicePakStation1"
+      },
+      "DevicePakAPIStation2": {
+        "http": "https://mnet-test.global.dish.com/Applications/DevicePakAPI/api/DBS/Station2",
+        "https": "https://mnet-dev.global.dish.com/Applications/DevicePakAPI/api/DBS/DevicePakStation2",
+        "StantAalone": "https://mnet-test.global.dish.com/Applications/DevicePakAPI/api/DBS/Station2",
+        "test": "https://mnet-dev.global.dish.com/Applications/DevicePakAPI/api/DBS/DevicePakStation2"
+      }
+    },
+    "stringToArray": {
+      "enable": false,
+      "useSingleRequests": true,
+      "delimiter": ","
+    },
+    "MQTTHeartbeatTopic": ""
+  }
+]
