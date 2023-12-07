@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Update API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Update API</h1>
+        <form action="/updateAPI" method="POST">
+            <label for="service">Service:</label>
+            <select id="service" name="service">
+                <option value="WebAPI">WebAPI</option>
+                <option value="SickClarify">SickClarify</option>
+                <option value="AEC">AEC</option>
+                <option value="keyence">keyence</option>
+                <option value="PackoutAPP">PackoutAPP</option>
+            </select>
+            <label for="option">Option:</label>
+            <select id="option" name="option">
+                <option value="http">http</option>
+                <option value="https">https</option>
+                <option value="StantAalone">StantAalone</option>
+                <option value="test">test</option>
+            </select>
+            <input type="submit" value="Update">
+        </form>
+    </div>
+</body>
+
+</html>

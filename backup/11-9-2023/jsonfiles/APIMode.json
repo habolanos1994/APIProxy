@@ -1,0 +1,15 @@
+{
+  "ActiveAPI": {
+    "WebAPI": "https://mnet.global.dish.com/",
+    "SickClarify": "https://mnet.global.dish.com/",
+    "AEC": "https://mnet.global.dish.com/",
+    "keyence": "https://mnet.global.dish.com/",
+    "PackoutAPP": "https://mnet-test.global.dish.com/"
+  },
+  "URLAPI": {
+    "http": "http://mnet.dish.com/",
+    "https": "https://mnet.global.dish.com/",
+    "StantAalone": "http://10.63.192.30:8080/",
+    "test": "https://mnet-test.global.dish.com/"
+  }
+}

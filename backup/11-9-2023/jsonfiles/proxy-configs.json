@@ -1,0 +1,47 @@
+[
+    {
+      "ServiceName": "BoxTracker",
+      "TCPAPIPort": "8083",
+      "HeartbeatPort": "8038",
+      "workerScript": "box.js",
+      "MQTTDDATATopic": "ELP/Returns/PROXY/AECV/DDATA",
+      "MQTTERRORTopic": "ELP/Returns/PROXY/AECV/Error",
+      "MQTTHeartbeatTopic": "ELP/Returns/PROXY/HeartbeatAEC/DDATA"
+    },
+    {
+        "ServiceName": "Keyence",
+        "TCPAPIPort": "8085",
+        "HeartbeatPort": "",
+        "workerScript": "Keyence.js",
+        "MQTTDDATATopic": "ELP/Returns/PROXY/Keyence/DDATA",
+        "MQTTERRORTopic": "ELP/Returns/PROXY/Keyence/Error",
+        "MQTTHeartbeatTopic": ""
+    },
+    {
+        "ServiceName": "packapp",
+        "TCPAPIPort": "8090",
+        "HeartbeatPort": "",
+        "workerScript": "packapp.js",
+        "MQTTDDATATopic": "SUW/warehouse/PROXY/Packapp/DDATA",
+        "MQTTERRORTopic": "SUW/warehouse/PROXY/Packapp/Error",
+        "MQTTHeartbeatTopic": ""
+    },
+    {
+        "ServiceName": "SickClarify",
+        "TCPAPIPort": "8084",
+        "HeartbeatPort": "8048",
+        "workerScript": "SickClarify.js",
+        "MQTTDDATATopic": "ELP/Returns/PROXY/SickClarify/DDATA",
+        "MQTTERRORTopic": "ELP/Returns/PROXY/SickClarify/Error",
+        "MQTTHeartbeatTopic": ""
+    },
+    {
+        "ServiceName": "Bastian",
+        "TCPAPIPort": "8080",
+        "HeartbeatPort": "",
+        "workerScript": "Bastian.js",
+        "MQTTDDATATopic": "",
+        "MQTTERRORTopic": "",
+        "MQTTHeartbeatTopic": ""
+    }
+  ]
